@@ -1,6 +1,4 @@
 -- E-COMMERCE DATABASE SETUP
--- Copy and paste this into any SQL environment (MySQL, PostgreSQL, SQLite, etc.)
-
 
 CREATE DATABASE ecommerce_practice;
 USE ecommerce_practice;
@@ -97,9 +95,6 @@ INSERT INTO order_items VALUES
 (17, 1010, 103, 2, 12.99),
 (18, 1010, 106, 2, 15.99);
 
--- ========================================
--- PRACTICE QUESTIONS (START WITH THESE)
--- ========================================
 
 -- BEGINNER LEVEL (Basic SELECT, WHERE, ORDER BY)
 -- 1. Show all customers from USA
@@ -381,15 +376,3 @@ ORDER BY order_date;
 -- 18. Calculate customer lifetime value and acquisition cohorts
 -- 19. Identify at-risk customers (haven't ordered in 30+ days)
 -- 20. Build a sales dashboard query with key metrics
-
--- ========================================
--- LEARNING PROGRESSION TIPS:
--- ========================================
--- 1. Start with questions 1-5, make sure you can write them without looking up syntax
--- 2. Move to 6-10, focus on understanding JOINs and GROUP BY
--- 3. Try 11-15, practice subqueries and window functions
--- 4. Challenge yourself with 16-20, think like a business analyst
--- 
--- Don't look up answers immediately! Struggle with each query for 10-15 minutes first.
--- Write down what you're trying to achieve before writing the SQL.
--- Test your queries and verify the results make sense.
